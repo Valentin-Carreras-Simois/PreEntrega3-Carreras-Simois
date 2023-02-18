@@ -8,8 +8,27 @@ html{
     font-family: 'Montserrat', sans-serif;
 }
 
+.grid_container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
 
-
+header{
+    background-color: #283618;
+    grid-area: header;
+}
+main{
+    background-color: #dda15e;
+    grid-area: main;
+}
+footer{
+    background-color: #fefae0;
+    grid-area: footer;
+}
 /* MOBILE FIRST */
 
 
