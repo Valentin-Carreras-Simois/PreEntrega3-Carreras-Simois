@@ -31,6 +31,45 @@ footer{
 }
 /* MOBILE FIRST */
 
+/* Header */
+.header{
+    padding: 0;
+    background-color: #283618;
+}
+.navbar{
+    padding: 0;
+    background-color: #283618;
+}
+.navbar-container{
+    background-color: #283618;
+    padding: 1rem;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-left: 1rem;
+    color: #bc6c25;
+}
+.navbar-brand:hover{
+    color: #dda15e ;
+    transition: 0.3s
+}
+.nav-item{
+    padding-right: 2rem;
+}
+.nav-link{
+    font-size: 1.5rem;
+    font-weight: 550;
+    padding: 1rem;
+    color: #dda15e;
+}
+.nav-link:hover{
+    background-color: #606c38;
+    border-radius: 10px;
+    color: #dda15e;
+    transition: 0.5s;
+}
+
 
 
 
