@@ -134,7 +134,7 @@ footer{
     .navbar-brand{
         font-size: 4rem;
         font-weight: 600;
-        padding-left: 3rem;
+        padding-left: 3.5rem;
     }
     .navbar-brand:hover{
         color: #dda15e;
@@ -178,9 +178,12 @@ footer{
     
     .div_copyright p{
         color: #bc6c25;
-        font-size: 1rem;
+        font-size: 1.5rem;
         padding-left: 1rem;
         font-weight: 500;
+    }
+    .container{
+        padding-top: 1rem;
     }
     .div_redes ul{
         margin: 0;
