@@ -63,11 +63,30 @@ footer{
     padding: 1rem;
     color: #dda15e;
 }
-.nav-link:hover{
+.navbar-toggler{
     background-color: #606c38;
-    border-radius: 10px;
-    color: #dda15e;
-    transition: 0.5s;
+}
+
+/* Main */
+
+.main_container{
+    height: 80vh;
+    background-image:url(../img/bar2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex; 
+    align-items: center;
+}
+.titulo_1{
+    color: #fefae0;
+    font-size: 3rem;
+    padding-left: 2rem;
+
+}
+.titulo_2{
+    color: #fefae0;
+    font-size: 2rem;
+    padding-left: 2rem;
 }
 
 
