@@ -266,6 +266,7 @@ footer{
     }
     .historia_section__container:hover{
     box-shadow: 1rem 1rem 0.4rem #151c0c;
+    transition: 0.2s;
     }
     .historia_section__container h2{
     color: #000;
@@ -274,6 +275,7 @@ footer{
     font-weight: 600;
     text-decoration: underline;
     font-family: 'Roboto', sans-serif;
+    font-style: italic;
     }
     .historia_parrafo p{
     padding: 3rem 2rem 2rem 0;
