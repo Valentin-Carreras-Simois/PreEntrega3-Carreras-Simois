@@ -10,6 +10,7 @@ html{
     font-size: 62.5%;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 
 .grid_container{
     display: grid;
@@ -26,6 +27,7 @@ header{
 }
 main{
     grid-area: main;
+    background-color: #606c38;
 }
 footer{
     background-color: #fefae0;
@@ -34,8 +36,6 @@ footer{
 
 
 /* MOBILE FIRST */
-
-/* INiCIO */
 
 /* Header */
 .header{
@@ -73,30 +73,6 @@ footer{
     background-color: #606c38;
 }
 
-/* Main */
-
-.inicio_main__container{
-    height: 700px;
-    background-image:url(../img/bar1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex; 
-    align-items: center;
-}
-.inicio_titulo__1{
-    color: #fefae0;
-    font-size: 3rem;
-    padding-left: 2rem;
-    font-family: 'Montserrat', sans-serif;
-}
-.inicio_titulo__2{
-    color: #fefae0;
-    font-size: 2rem;
-    padding-left: 2rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-}
-
 /* Footer */
 
 .footer_container{
@@ -131,26 +107,55 @@ footer{
     padding-top: 1rem;
 }
 
+
+/* INICIO */
+
+/* Main */
+
+.inicio_main__container{
+    height: 700px;
+    background-image:url(../img/bar1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex; 
+    align-items: center;
+}
+.inicio_titulo__1{
+    color: #fefae0;
+    font-size: 3rem;
+    padding-left: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.inicio_titulo__2{
+    color: #fefae0;
+    font-size: 2rem;
+    padding-left: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+
 /* HISTORIA */
 
 /* Main */
 
 .historia_main__container{
-    background-color: #606c38;
     padding: 2rem;
        
 }
 .historia_section__container{
     background-color: #283618;
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     margin-top: 2rem;
+    border-radius: 5px;
 }
 
 .historia_section__container h2{
     color: #000;
     text-align: center;
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 900;
     text-decoration: underline;
 }
 .historia_parrafo p{
@@ -245,5 +250,7 @@ footer{
     .inicio_titulo__2{
         font-size: 5rem;
     }
+
+    
 
 }
