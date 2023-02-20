@@ -4,9 +4,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
 html{
-    font-size: 62.5%;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 62.5%;   
 }
 
 
@@ -22,6 +24,7 @@ html{
 header{
     background-color: #283618;
     grid-area: header;
+    font-family: 'Montserrat', sans-serif;
 }
 main{
     grid-area: main;
@@ -29,12 +32,13 @@ main{
 footer{
     background-color: #fefae0;
     grid-area: footer;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
 /* MOBILE FIRST */
 
-/* INDEX */
+/* INiCIO */
 
 /* Header */
 .header{
@@ -86,12 +90,13 @@ footer{
     color: #fefae0;
     font-size: 3rem;
     padding-left: 2rem;
-
+    font-family: 'Roboto', sans-serif;
 }
 .inicio_titulo__2{
     color: #fefae0;
     font-size: 2rem;
     padding-left: 2rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Footer */
@@ -131,18 +136,34 @@ footer{
 /* HISTORIA */
 
 /* Main */
+
 .historia_main__container{
-    background-color: #dda15e;
+    background-color: #606c38;
     padding: 2rem;
+       
 }
 .historia_section__container{
-    background-color: #606c38;
+    background-color: #dda15e;
     padding: 2rem;
     margin-top: 2rem;
 }
+
 .historia_section__container h2{
+    color: #000;
     text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+    font-family: 'Roboto', sans-serif;
 }
+.historia_parrafo p{
+    padding-top: 2rem;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
 
 /* DESKTOP */
 @media screen and (min-width: 768px){
