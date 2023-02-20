@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
 
 html{
     font-size: 62.5%;   
@@ -90,13 +90,14 @@ footer{
     color: #fefae0;
     font-size: 3rem;
     padding-left: 2rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .inicio_titulo__2{
     color: #fefae0;
     font-size: 2rem;
     padding-left: 2rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 /* Footer */
@@ -146,6 +147,7 @@ footer{
     background-color: #dda15e;
     padding: 2rem;
     margin-top: 2rem;
+    background: linear-gradient();
 }
 
 .historia_section__container h2{
@@ -153,14 +155,14 @@ footer{
     text-align: center;
     font-size: 25px;
     text-decoration: underline;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 .historia_parrafo p{
     padding-top: 2rem;
     font-size: 15px;
     font-weight: 500;
     color: #000;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     
 }
 
@@ -242,7 +244,7 @@ footer{
     }
     .inicio_titulo__1{
         font-size: 7rem;
-        padding-top: 4rem;
+        padding-top: 20rem;
         font-weight: 600;
         
     }
