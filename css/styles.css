@@ -3,12 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
-
 html{
-    font-size: 62.5%;   
+    font-size: 62.5%;
 }
 
 
@@ -24,7 +23,6 @@ html{
 header{
     background-color: #283618;
     grid-area: header;
-    font-family: 'Montserrat', sans-serif;
 }
 main{
     grid-area: main;
@@ -32,7 +30,6 @@ main{
 footer{
     background-color: #fefae0;
     grid-area: footer;
-    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -144,7 +141,7 @@ footer{
        
 }
 .historia_section__container{
-    background-color: #dda15e;
+    background-color: #283618;
     padding: 2rem;
     margin-top: 2rem;
 }
@@ -153,15 +150,14 @@ footer{
     color: #000;
     text-align: center;
     font-size: 25px;
+    font-weight: 600;
     text-decoration: underline;
-    font-family: 'Montserrat Alternates', sans-serif;
 }
 .historia_parrafo p{
     padding-top: 2rem;
     font-size: 15px;
-    font-weight: 500;
-    color: #000;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    color: #807d7d;
 }
 
 
