@@ -23,7 +23,6 @@ header{
     grid-area: header;
 }
 main{
-    background-color: #dda15e;
     grid-area: main;
 }
 footer{
@@ -74,7 +73,7 @@ footer{
 
 /* Main */
 
-.main_container{
+.inicio_main__container{
     height: 700px;
     background-image:url(../img/bar2.jpg);
     background-repeat: no-repeat;
@@ -82,13 +81,13 @@ footer{
     display: flex; 
     align-items: center;
 }
-.titulo_1{
+.inicio_titulo__1{
     color: #fefae0;
     font-size: 3rem;
     padding-left: 2rem;
 
 }
-.titulo_2{
+.inicio_titulo__2{
     color: #fefae0;
     font-size: 2rem;
     padding-left: 2rem;
@@ -128,15 +127,29 @@ footer{
     padding-top: 1rem;
 }
 
+/* HISTORIA */
+
+/* Main */
+.historia_main__container{
+    background-color: #dda15e;
+    padding: 2rem;
+}
+.historia_section__container{
+    background-color: #606c38;
+    padding: 2rem;
+}
+.historia_section__container h2{
+    text-align: center;
+}
 
 
 
 /* DESKTOP */
 @media screen and (min-width: 768px){
 
-    /* INDEX */
+    /* DESKTOP GENERAL */
 
-    /* Header*/
+     /* Header*/
     .navbar-brand{
         font-size: 4rem;
         font-weight: 600;
@@ -161,24 +174,6 @@ footer{
         color: #dda15e;
         transition: 0.5s;
     }   
-
-    /* Main */
-    .main_container{
-        height: 750px;
-    }
-    .titulos_container{
-        padding-left: 5rem;
-        padding-top: 5rem;
-    }
-    .titulo_1{
-        font-size: 7rem;
-        padding-top: 4rem;
-        font-weight: 600;
-        
-    }
-    .titulo_2{
-        font-size: 5rem;
-    }
 
     /* Footer */
     
@@ -211,4 +206,27 @@ footer{
         border-radius: 5px;
         transition: 0.5s;
     }
+
+
+    /* INICIO */
+
+    /* Main */
+
+     .inicio_main__container{
+        height: 750px;
+    }
+    .inicio_titulos__container{
+        padding-left: 5rem;
+        padding-top: 5rem;
+    }
+    .inicio_titulo__1{
+        font-size: 7rem;
+        padding-top: 4rem;
+        font-weight: 600;
+        
+    }
+    .inicio_titulo__2{
+        font-size: 5rem;
+    }
+
 }
