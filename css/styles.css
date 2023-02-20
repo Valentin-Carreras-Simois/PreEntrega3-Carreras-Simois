@@ -9,6 +9,7 @@ html{
     font-family: 'Montserrat', sans-serif;
 }
 
+
 .grid_container{
     display: grid;
     grid-template-columns: 1fr;
@@ -75,7 +76,7 @@ footer{
 
 .inicio_main__container{
     height: 700px;
-    background-image:url(../img/bar2.jpg);
+    background-image:url(../img/bar1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex; 
@@ -137,12 +138,11 @@ footer{
 .historia_section__container{
     background-color: #606c38;
     padding: 2rem;
+    margin-top: 2rem;
 }
 .historia_section__container h2{
     text-align: center;
 }
-
-
 
 /* DESKTOP */
 @media screen and (min-width: 768px){
