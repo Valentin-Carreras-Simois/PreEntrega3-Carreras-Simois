@@ -262,14 +262,16 @@ footer{
     .historia_section__container{
     background-color: #283618;
     padding: 2rem;
-    margin-top: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
     }
     .historia_section__container:hover{
     box-shadow: 1rem 1rem 0.4rem #151c0c;
     transition: 0.2s;
+    transform: scale(1.02)
     }
     .historia_section__container h2{
-    color: #000;
+    color: #9e5718;
     text-align: center;
     font-size: 4rem;
     font-weight: 600;
@@ -281,7 +283,7 @@ footer{
     padding: 3rem 2rem 2rem 0;
     font-size: 2rem;
     font-weight: 500;
-    color: #a6a3a3;
+    color: #fefae0;
     font-family: 'Roboto', sans-serif;
     }
 
