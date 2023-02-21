@@ -16,7 +16,7 @@ html{
 /* MOBILE FIRST */
 
 /* Header */
-.inicio_header__container{
+.header__container{
     padding: 0;
     background-color: #283618;
 }
@@ -178,6 +178,10 @@ html{
 
     /* Footer */
     
+    .footer_container{
+        height: 100%;
+        width: 100%;
+    }
     .div_copyright p{
         color: #bc6c25;
         font-size: 1.5rem;
