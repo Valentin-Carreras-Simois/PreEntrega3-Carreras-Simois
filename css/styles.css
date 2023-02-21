@@ -152,7 +152,7 @@ html{
 
 .historia_main__container{
     padding: 2rem;
-    background-color: #432534;
+    background-color: #606c38;
        
 }
 .historia_section__container{
@@ -313,6 +313,7 @@ html{
     margin-top: 3rem;
     margin-bottom: 5rem;
     }
+    
     .historia_section__container:hover{
     box-shadow: 1rem 1rem 0.4rem #21131a;
     transition: 0.2s;
