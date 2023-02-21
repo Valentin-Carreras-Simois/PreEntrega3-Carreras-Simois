@@ -91,7 +91,7 @@ html{
 /* Main */
 
 .inicio_main__container{
-    height: 700px;
+    height: 100vh;
     background-image:url(../img/bar1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -102,15 +102,48 @@ html{
     color: #fefae0;
     font-size: 3rem;
     padding-left: 2rem;
-    font-family: 'Montserrat', sans-serif;
 }
 .inicio_titulo__2{
     color: #fefae0;
     font-size: 2rem;
     padding-left: 2rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
 }
+.inicio_btn__container{
+    padding-left: 2rem;
+    padding-top: 15rem;
+}
+.btn a{
+    font-size: 1rem;
+    color: #fefae0;
+    text-decoration: none;
+}
+.btn a:hover{
+    color: #21131a;
+}
+
+ /* Aside */
+
+ .inicio_aside__container{
+    background-color: #432534;
+}
+.inicio_aside__h2{
+    display: block;
+    padding: 2rem;
+    color: #fefae0;
+}
+.inicio_aside__h2 h2{
+    font-size: 2rem;
+}
+.inicio_aside__h2 p{
+    font-size: 1.5rem;
+}
+.inicio_aside__p2{
+    padding-top: 2rem;
+}
+.inicio_aside__img{
+    padding-top: 2rem;
+}
+
 
 
 /* HISTORIA */
@@ -135,18 +168,19 @@ html{
     text-align: center;
     font-size: 25px;
     font-weight: 900;
-    text-decoration: underline;
+    font-family: 'Roboto', sans-serif;
 }
 .historia_parrafo p{
     padding-top: 2rem;
     font-size: 15px;
-    font-weight: 600;
     color: #fefae0;
+    font-family: 'Roboto', sans-serif;
 }
 
 
 /* DESKTOP */
-@media screen and (min-width: 768px){
+
+    @media screen and (min-width: 768px){
 
     /* DESKTOP GENERAL */
 
@@ -218,7 +252,7 @@ html{
     /* Main */
 
      .inicio_main__container{
-        height: 750px;
+        height: 100vh;
     }
     .inicio_titulos__container{
         padding-left: 5rem;
@@ -233,6 +267,37 @@ html{
     .inicio_titulo__2{
         font-size: 5rem;
     }
+    .inicio_btn__container{
+        padding-left: 2rem;
+        padding-top: 15rem;
+    }
+    .btn a{
+        font-size: 2rem;
+        color: #fefae0;
+        text-decoration: none;
+    }
+    .btn a:hover{
+        color: #21131a;
+    }
+
+    /* Aside */
+
+    .inicio_aside__container{
+        background-color: #432534;
+    }
+    .inicio_aside__h2{
+        padding: 2rem;
+        font-size: 1.5rem;
+        color: #fefae0;
+    }
+    .inicio_aside__h2 h2{
+        font-size: 2.5rem;
+    }
+    .inicio_aside__p2{
+        padding-top: 50rem;
+    }
+    
+
 
     /* HISTORIA */
 
@@ -248,26 +313,25 @@ html{
     margin-top: 3rem;
     margin-bottom: 5rem;
     }
+    
     .historia_section__container:hover{
-    box-shadow: 1rem 1rem 0.4rem #151c0c;
+    box-shadow: 1rem 1rem 0.4rem #21131a;
     transition: 0.2s;
     transform: scale(1.02)
     }
     .historia_section__container h2{
-    color: #9e5718;
+    color: #bc6c25;
     text-align: center;
     font-size: 4rem;
     font-weight: 600;
-    text-decoration: underline;
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
     }
     .historia_parrafo p{
     padding: 3rem 2rem 2rem 0;
     font-size: 2rem;
     font-weight: 500;
     color: #fefae0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     }
 
 
