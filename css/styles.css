@@ -102,14 +102,11 @@ html{
     color: #fefae0;
     font-size: 3rem;
     padding-left: 2rem;
-    font-family: 'Montserrat', sans-serif;
 }
 .inicio_titulo__2{
     color: #fefae0;
     font-size: 2rem;
     padding-left: 2rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
 }
 .inicio_btn__container{
     padding-left: 2rem;
@@ -171,13 +168,13 @@ html{
     text-align: center;
     font-size: 25px;
     font-weight: 900;
-    text-decoration: underline;
+    font-family: 'Roboto', sans-serif;
 }
 .historia_parrafo p{
     padding-top: 2rem;
     font-size: 15px;
-    font-weight: 600;
     color: #fefae0;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -324,18 +321,16 @@ html{
     .historia_section__container h2{
     color: #bc6c25;
     text-align: center;
-    text-decoration: none;
     font-size: 4rem;
     font-weight: 600;
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
     }
     .historia_parrafo p{
     padding: 3rem 2rem 2rem 0;
     font-size: 2rem;
     font-weight: 500;
     color: #fefae0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     }
 
 
