@@ -152,7 +152,7 @@ html{
 
 .historia_main__container{
     padding: 2rem;
-    background-color: #21131a;
+    background-color: #606c38;
        
 }
 .historia_section__container{
@@ -330,6 +330,9 @@ html{
 
     main{
         padding: 0;
+    }
+    .historia_main__container{
+        background-color: #21131a;
     }
        
     .historia_section__container{
