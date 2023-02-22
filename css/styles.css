@@ -335,4 +335,24 @@ html{
     }
 
 
+    /* CERVEZAS Y TRAGOS  */
+
+    /* Main */
+
+    .cervezas_main__container{
+        background-color: #21131a;
+    }
+    .cervezas_titulo{
+        font-size: 5rem;
+        font-weight: 600;
+        color: #fefae0;
+        padding-bottom: 5rem;
+        padding-top: 5rem;
+    }
+    .card{
+        margin: 2rem;
+    }
+    .card-body p{
+        font-size: 2rem;
+    }
 }
