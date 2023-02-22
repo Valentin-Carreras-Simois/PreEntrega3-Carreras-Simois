@@ -185,9 +185,8 @@ html{
 .cervezas_main__container{
     background-color: #21131a;
 }
-.cervezas_main__article{
-    margin-top: 5rem;
-    margin-bottom: 3rem;
+.cervezas_main__section{
+    margin: 3rem;
 }
 .cervezas_titulo{
     font-size: 3rem;
@@ -361,14 +360,14 @@ html{
     }
 
 
-    /* CERVEZAS Y TRAGOS  */
+    CERVEZAS Y TRAGOS 
 
     /* Main */
 
     .cervezas_main__container{
         background-color: #21131a;
     }
-    .cervezas_main__article{
+    .cervezas_main__section{
         margin-top: 5rem;
         margin-bottom: 3rem;
     }
@@ -379,14 +378,44 @@ html{
         padding-bottom: 5rem;
         padding-top: 5rem;
     }
-    .card{
-        margin: 2rem;
+    
+    .card_container{
+        width: 100%;
+        max-width: 1200px;
+        height: 430px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 3rem;
     }
-    .card:hover{
-        transform: scale(1.02);
-        transition: 0.2s;
+    .card_container .card{
+        background-color: #fefae0;
+        width: 500px;
+        height: 430px;
+        border-radius: 6px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        margin: 20px;
+        transition: all 0.25s;
     }
-    .card-body p{
-        font-size: 2rem;
+    .card_container .card:hover{
+        transform: translateY(-15px);
+        box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
     }
+    .card_container .card img{
+        width: 500px;
+        height: 300px;
+    }
+    .card_container .card h3{
+        padding: 2rem;
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+    .card_container .card p{
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+
+
+    
 }
