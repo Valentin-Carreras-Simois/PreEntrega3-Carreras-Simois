@@ -212,17 +212,50 @@ html{
 .contacto_main__section{
     margin-top: 3rem;
     margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
 }
 .contacto_main__section li{
     list-style: none;
     font-size: 2rem;
     color: #fefae0;
+    padding: 2rem;
     
 }
 .contacto_main__section h2{
     font-size: 3rem;
     color: #fefae0;
+    padding-top: 2rem;
 }
+.contacto_main__section iframe{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    width: 100%;
+}
+.caja_comentario{
+    margin-bottom: 3rem;
+}
+.caja_comentario_email{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.caja_comentario label{
+    font-size: 2rem;
+    color: #fefae0;
+}
+.caja_comentario button{
+    margin-top: 3rem;
+    font-size: 1.5rem;
+}
+.caja_comentario input{
+    font-size: 1.5rem;
+}
+.caja_comentario textarea{
+    font-size: 1.5rem;
+}
+
+
+
 
 /* DESKTOP */
 
@@ -450,6 +483,9 @@ html{
     .menu_main__section{
         margin-top: 3rem;
         margin-bottom: 3rem;
+    }
+    .menu_main__section article{
+        padding-left: 5rem;
     }
 
     

@@ -74,7 +74,7 @@
                        </article>
                     </section>   
         
-                    <section class="container">
+                    <section class="container-md contacto_main__section border border border-warning">
                         <article>
                             <h2>Te esperamos!</h2>
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2008.5896756390525!2d-65.05594180504362!3d-32.14944271120161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d2d85ece2ccbfb%3A0x51035413330104f!2sLuyaba%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1675132079096!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -83,12 +83,20 @@
         
                        <!--Comentarios   -->
         
-                    <section class="container">
+                    <section class="container-md contacto_main__section border border border-warning ">
                        <article>
-                        <h2>Dejanos tu comentario!</h2>
-                        <label for="caja-comentario">Queremos saber de vos!</label>
-                        <textarea name="caja-comentario" rows="4" cols="25"></textarea>
-                        <input type="submit">
+                        <h2>Queremos conocer tu experiencia!</h2>
+                        <div class="caja_comentario container-fluid">
+                            <div class="col-12 caja_comentario_email">
+                                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                              </div>
+                            <div class="col-12 caja_comentario_text">
+                                <label for="exampleFormControlTextarea1" class="form-label">Deja tu comentario!</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" placeholder="Deja tu comentario!"></textarea>
+                                <button class="btn btn-outline-light" type="submit">Enviar</button>
+                            </div>
+                        </div>
                        </article>
                     </section>
                     
