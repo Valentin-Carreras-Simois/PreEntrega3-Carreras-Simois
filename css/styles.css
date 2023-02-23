@@ -214,8 +214,6 @@ html{
 }
 
 
-
-
 /* CONTACTO */
 
 /* Main */
@@ -231,13 +229,13 @@ html{
 }
 .contacto_main__section li{
     list-style: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #fefae0;
     padding: 2rem;
     
 }
 .contacto_main__section h2{
-    font-size: 3rem;
+    font-size: 2rem;
     color: #fefae0;
     padding-top: 2rem;
 }
@@ -259,13 +257,13 @@ html{
 }
 .caja_comentario button{
     margin-top: 3rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 .caja_comentario input{
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 .caja_comentario textarea{
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 
@@ -502,5 +500,32 @@ html{
         padding-left: 5rem;
     }
 
-    
+
+    /* CONTACTO */
+
+    /* Main */
+
+    .contacto_main__section li{
+        list-style: none;
+        font-size: 3rem;
+        color: #fefae0;
+        padding: 2.5rem;
+    }
+    .contacto_main__section h2{
+        font-size: 3rem;
+        color: #fefae0;
+        padding-top: 2rem;
+    }
+    .caja_comentario label{
+        font-size: 2.5rem;
+    }
+    .caja_comentario button{
+        font-size: 1.5rem;
+    }
+    .caja_comentario input{
+        font-size: 1.5rem;
+    }
+    .caja_comentario textarea{
+        font-size: 1.5rem;
+    }
 }
