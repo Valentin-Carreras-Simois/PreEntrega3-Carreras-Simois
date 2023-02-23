@@ -188,7 +188,7 @@ html{
 .cervezas_main__section{
     margin: 3rem;
 }
-.cervezas_titulo{
+.cervezas_menu__titulo{
     font-size: 3rem;
     font-weight: 600;
     color: #fefae0;
@@ -212,7 +212,12 @@ html{
 .menu_main__container{
     background-color: #21131a;
 }
-
+.menu_main__section{
+    margin: 3rem;
+}
+.menu_main__section article{
+    padding-left: 1rem;
+}
 
 /* CONTACTO */
 
@@ -238,6 +243,7 @@ html{
     font-size: 2rem;
     color: #fefae0;
     padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 .contacto_main__section iframe{
     padding-top: 3rem;
@@ -515,6 +521,7 @@ html{
         font-size: 3rem;
         color: #fefae0;
         padding-top: 2rem;
+        padding-bottom: 2rem;
     }
     .caja_comentario label{
         font-size: 2.5rem;
