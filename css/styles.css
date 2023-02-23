@@ -202,6 +202,27 @@ html{
     font-size: 1.5rem;
 }
 
+/* CONTACTO */
+
+/* Main */
+
+.contacto_main__container{
+    background-color: #21131a;
+}
+.contacto_main__section{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.contacto_main__section li{
+    list-style: none;
+    font-size: 2rem;
+    color: #fefae0;
+    
+}
+.contacto_main__section h2{
+    font-size: 3rem;
+    color: #fefae0;
+}
 
 /* DESKTOP */
 
@@ -363,7 +384,7 @@ html{
     }
 
 
-    CERVEZAS Y TRAGOS 
+    /* CERVEZAS Y TRAGOS */
 
     /* Main */
 
