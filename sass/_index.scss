@@ -1,1 +1,146 @@
 @use 'variables';
+
+
+/* Main */
+
+.inicio_main__container{
+    height: 100vh;
+    background-image:url(../img/bar1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex; 
+    align-items: center;
+
+    .inicio_titulo__1{
+        color: variables.$color__white;
+        font-size: variables.$fontsize_h2;
+        padding-left: 2rem;
+    }
+    .inicio_titulo__2{
+        color: variables.$color__white;
+        font-size: 2rem;
+        padding-left: 2rem;
+    }
+
+    .inicio_btn__container{
+        padding-left: 2rem;
+        padding-top: 15rem;
+
+        a{
+            font-size: 1rem;
+            color: variables.$color__white;
+            text-decoration: none;
+        }
+    }
+
+        
+}
+
+// Aside
+
+.inicio_aside__container{
+    background-color: variables.$color__violet;
+
+    .inicio_aside__h2{
+        padding: 2rem;
+        color: variables.$color__white;
+
+        h2{
+            font-size: 2rem;
+        }
+        
+        .inicio_aside__p1{
+            padding-top: 1rem;
+            font-size: 1rem;             
+        }
+        .inicio_aside__p2{
+            padding-top: 2rem;
+            font-size: 1rem;
+        }
+    }
+
+    .inicio_aside__img{
+        padding-top: 2rem;
+    }
+    
+}
+
+
+/* DESKTOP */
+
+@media screen and (min-width: 768px){
+
+    
+    // Main
+
+    .inicio_main__container{
+        height: 100vh;
+
+        .inicio_titulos__container{
+            padding-left: 5rem;
+            padding-top: 5rem;
+
+            .inicio_titulo__1{
+                font-size: 7rem;
+                padding-top: 20rem;
+                font-weight: 600;
+                
+            }
+            .inicio_titulo__2{
+                font-size: 5rem;
+            }
+        }
+
+        .inicio_btn__container{
+            padding-left: 2rem;
+            padding-top: 15rem;
+
+            .btn{
+                a{
+                    font-size: 2rem;
+                    color: variables.$color__white;
+                    text-decoration: none;
+                    &:hover{
+                        color: variables.$color__violet;
+                    }
+                }
+            }
+        }
+    } 
+    
+    // Aside
+
+    .inicio_aside__container{
+        background-color: variables.$color__violet;
+
+        .inicio_aside__h2{
+            padding: 2rem;
+            color: variables.$color__white;
+
+            h2{
+                font-size: variables.$fontsize_h2;
+            }
+            
+            .inicio_aside__p1{
+                padding-top: 1rem;
+                font-size: 1.5rem;             
+            }
+            .inicio_aside__p2{
+                padding-top: 47rem;
+                font-size: 1.5rem;
+            }
+        }
+
+        .inicio_aside__img{
+            padding-top: 2.5rem;
+        }
+
+    }
+
+
+}
+
+
+
+
+
