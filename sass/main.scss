@@ -1,7 +1,7 @@
-@use 'globales';
-@use 'variables';
-@use 'index';
-@use 'cervezasytragos';
-@use 'menu';
-@use 'historia';
-@use 'contacto';
+@use './partials/globales';
+@use './partials/variables';
+@use './partials/index';
+@use './partials/cervezasytragos';
+@use './partials/menu';
+@use './partials/historia';
+@use './partials/contacto';

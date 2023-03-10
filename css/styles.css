@@ -56,12 +56,12 @@ html {
 }
 .footer_container .div_redes ul {
   margin: 0;
-  padding-left: 3.5rem;
+  padding-left: 2.5rem;
 }
 .footer_container .div_redes ul li {
   list-style-type: none;
   display: inline-block;
-  padding-left: 1.5rem;
+  padding-left: 1rem;
 }
 .footer_container .div_redes ul li a {
   text-decoration: none;
@@ -92,6 +92,7 @@ html {
     color: #dda15e;
   }
   .header__container .navbar .navbar-container .navbar-collapse ul .nav-item .nav-link:hover {
+    transform: scale(1.1);
     background-color: #606c38;
     border-radius: 10px;
     color: #dda15e;

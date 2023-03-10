@@ -85,12 +85,12 @@ html{
 
         ul{
             margin: 0;
-            padding-left: 3.5rem;
+            padding-left: 2.5rem;
 
             li{
                 list-style-type: none;
                 display: inline-block;
-                padding-left: 1.5rem;
+                padding-left: 1rem;
 
                 a{
                     text-decoration: none;
@@ -105,6 +105,7 @@ html{
 
 
 /* DESKTOP */
+
 
 @media screen and (min-width: 768px){
 
@@ -140,10 +141,12 @@ html{
                                 padding: 2rem;
                                 color: variables.$color__light_orange;
                                 &:hover{
+                                    transform: scale(1.1);
                                     background-color: variables.$color__light_green;
                                     border-radius: 10px;
                                     color: variables.$color__light_orange;
                                     transition: 0.5s;
+                            
                                 }
                             }
                         }
