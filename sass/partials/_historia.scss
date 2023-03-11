@@ -16,29 +16,24 @@
         margin-top: 2rem;
         border-radius: 5px;
 
-        .historia_section__container {
-            h2{
-                color: #fefae0;
-                text-align: center;
-                font-size: 3rem;
-                font-weight: 900;
-                font-family: 'Roboto', sans-serif;
-
-                .historia_parrafo{
-                    p{
-                        padding-top: 2rem;
-                        font-size: 15px;
-                        color: #fefae0;
-                        font-family: 'Roboto', sans-serif;
-
-                    }
-                } 
-            }
+        
+        h2{
+            color: #fefae0;
+            text-align: center;
+            font-size: 3rem;
+            font-weight: 600;
         }
+        .historia_parrafo{
+            p{
+                padding-top: 2rem;
+                font-size: 15px;
+                color: #fefae0;
+            }
+        } 
+        
     }
-    
-       
 }
+    
 
 
 /* DESKTOP */

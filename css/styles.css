@@ -250,18 +250,16 @@ html {
   margin-top: 2rem;
   border-radius: 5px;
 }
-.historia_main__container .historia_section__container .historia_section__container h2 {
+.historia_main__container .historia_section__container h2 {
   color: #fefae0;
   text-align: center;
   font-size: 3rem;
-  font-weight: 900;
-  font-family: "Roboto", sans-serif;
+  font-weight: 600;
 }
-.historia_main__container .historia_section__container .historia_section__container h2 .historia_parrafo p {
+.historia_main__container .historia_section__container .historia_parrafo p {
   padding-top: 2rem;
   font-size: 15px;
   color: #fefae0;
-  font-family: "Roboto", sans-serif;
 }
 
 /* DESKTOP */
@@ -294,6 +292,102 @@ html {
     font-weight: 500;
     color: #fefae0;
     font-family: "Montserrat", sans-serif;
+  }
+}
+/* Main */
+.contacto_main__container {
+  background-color: #21131a;
+}
+.contacto_main__container .contacto_main__section {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+}
+.contacto_main__container .contacto_main__section article h2 {
+  font-size: 2rem;
+  color: #fefae0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.contacto_main__container .contacto_main__section article ul li {
+  list-style: none;
+  font-size: 1.5rem;
+  color: #fefae0;
+  padding: 2rem;
+}
+.contacto_main__container .contacto_main__section article iframe {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  width: 100%;
+}
+.contacto_main__container .contacto_main__section article .caja_comentario {
+  margin-bottom: 3rem;
+}
+.contacto_main__container .contacto_main__section article .caja_comentario .caja_comentario_email {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.contacto_main__container .contacto_main__section article .caja_comentario .caja_comentario_email label {
+  font-size: 2rem;
+  color: #fefae0;
+}
+.contacto_main__container .contacto_main__section article .caja_comentario .caja_comentario_email input {
+  font-size: 1.5rem;
+}
+.contacto_main__container .contacto_main__section article .caja_comentario .caja_comentario_text label {
+  font-size: 2rem;
+  color: #fefae0;
+}
+.contacto_main__container .contacto_main__section article .caja_comentario .caja_comentario_text textarea {
+  font-size: 1.5rem;
+}
+.contacto_main__container .contacto_main__section article .caja_comentario .caja_comentario_text button {
+  margin-top: 3rem;
+  font-size: 1.5rem;
+}
+
+/* DESKTOP */
+@media screen and (min-width: 768px) {
+  .contacto_main__container .contacto_main__section {
+    margin-bottom: 7rem;
+  }
+  .contacto_main__container .contacto_main__section article h2 {
+    font-size: 3rem;
+    color: #fefae0;
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
+  }
+  .contacto_main__container .contacto_main__section article ul li {
+    list-style: none;
+    font-size: 2rem;
+    color: #fefae0;
+    padding: 2.5rem;
+  }
+  .contacto_main__container .contacto_main__section article iframe {
+    padding-bottom: 3rem;
+    width: 60rem;
+    height: 40rem;
+  }
+  .contacto_main__container .contacto_main__section article .caja_comentario {
+    padding-top: 2rem;
+  }
+  .contacto_main__container .contacto_main__section article .caja_comentario .caja_comentario_email label {
+    font-size: 2.5rem;
+  }
+  .contacto_main__container .contacto_main__section article .caja_comentario .caja_comentario_email input {
+    font-size: 1.5rem;
+  }
+  .contacto_main__container .contacto_main__section article .caja_comentario .caja_comentario_text label {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  }
+  .contacto_main__container .contacto_main__section article .caja_comentario .caja_comentario_text textarea {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+  }
+  .contacto_main__container .contacto_main__section article .caja_comentario .caja_comentario_text button {
+    font-size: 1.5rem;
   }
 }
 
