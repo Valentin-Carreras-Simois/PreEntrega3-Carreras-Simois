@@ -239,6 +239,164 @@ html {
   }
 }
 /* Main */
+.cervezas_main__container {
+  background-color: #21131a;
+}
+.cervezas_main__container .cervezas_main__section {
+  margin: 3rem;
+}
+.cervezas_main__container .cervezas_main__section div h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #fefae0;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
+.cervezas_main__container .cervezas_main__section .card_container .card {
+  margin: 2rem;
+}
+.cervezas_main__container .cervezas_main__section .card_container .card h3 {
+  font-size: 2rem;
+}
+.cervezas_main__container .cervezas_main__section .card_container .card p {
+  font-size: 1.5rem;
+}
+
+/* DESKTOP */
+@media screen and (min-width: 768px) {
+  .cervezas_main__container {
+    background-color: #21131a;
+  }
+  .cervezas_main__container .cervezas_main__section {
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+  }
+  .cervezas_main__container .cervezas_main__section div h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #fefae0;
+    padding-bottom: 2rem;
+    padding-top: 5rem;
+  }
+  .cervezas_main__container .cervezas_main__section .card_container {
+    width: 100%;
+    max-width: 120rem;
+    padding-left: 5rem;
+    height: 43rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+  }
+  .cervezas_main__container .cervezas_main__section .card_container .card {
+    background-color: #fefae0;
+    width: 50rem;
+    height: 43rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 2rem;
+    transition: all 0.25s;
+  }
+  .cervezas_main__container .cervezas_main__section .card_container .card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 1.2rem 1.6rem rgba(0, 0, 0, 0.2);
+  }
+  .cervezas_main__container .cervezas_main__section .card_container .card img {
+    width: 50rem;
+    height: 30rem;
+  }
+  .cervezas_main__container .cervezas_main__section .card_container .card h3 {
+    padding: 2rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  .cervezas_main__container .cervezas_main__section .card_container .card p {
+    font-weight: 500;
+    font-size: 2rem;
+  }
+}
+/* Main */
+.menu_main__container {
+  background-color: #21131a;
+}
+.menu_main__container .menu_main__section {
+  margin: 3rem;
+}
+.menu_main__container .menu_main__section div h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #fefae0;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
+.menu_main__container .menu_main__section .card_container .card {
+  margin: 2rem;
+}
+.menu_main__container .menu_main__section .card_container .card h3 {
+  font-size: 2rem;
+}
+.menu_main__container .menu_main__section .card_container .card p {
+  font-size: 1.5rem;
+}
+
+/* DESKTOP */
+@media screen and (min-width: 768px) {
+  .menu_main__container {
+    background-color: #21131a;
+  }
+  .menu_main__container .menu_main__section {
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+  }
+  .menu_main__container .menu_main__section div h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #fefae0;
+    padding-bottom: 2rem;
+    padding-top: 5rem;
+  }
+  .menu_main__container .menu_main__section .card_container {
+    width: 100%;
+    max-width: 120rem;
+    padding-left: 5rem;
+    height: 43rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+  }
+  .menu_main__container .menu_main__section .card_container .card {
+    background-color: #fefae0;
+    width: 50rem;
+    height: 43rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 2rem;
+    transition: all 0.25s;
+  }
+  .menu_main__container .menu_main__section .card_container .card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 1.2rem 1.6rem rgba(0, 0, 0, 0.2);
+  }
+  .menu_main__container .menu_main__section .card_container .card img {
+    width: 50rem;
+    height: 30rem;
+  }
+  .menu_main__container .menu_main__section .card_container .card h3 {
+    padding: 2rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  .menu_main__container .menu_main__section .card_container .card p {
+    font-weight: 500;
+    font-size: 2rem;
+  }
+}
+/* Main */
 .historia_main__container {
   padding: 2rem;
   background-color: #606c38;
@@ -253,12 +411,12 @@ html {
 .historia_main__container .historia_section__container h2 {
   color: #fefae0;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 600;
 }
 .historia_main__container .historia_section__container .historia_parrafo p {
   padding-top: 2rem;
-  font-size: 15px;
+  font-size: 1.5rem;
   color: #fefae0;
 }
 
@@ -266,7 +424,7 @@ html {
 @media screen and (min-width: 768px) {
   .historia_main__container {
     padding: 0;
-    background-color: #21131a;
+    background-color: #432534;
   }
   .historia_main__container .historia_section__container {
     background-color: #283618;
@@ -274,7 +432,7 @@ html {
     margin-top: 3rem;
     margin-bottom: 5rem;
   }
-  .historia_main__container .historia_section__containerhover {
+  .historia_main__container .historia_section__container:hover {
     box-shadow: 1rem 1rem 0.4rem #21131a;
     transform: scale(1.02);
     transition: 0.2s;
@@ -282,21 +440,19 @@ html {
   .historia_main__container .historia_section__container h2 {
     color: #fefae0;
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 600;
-    font-family: "Montserrat", sans-serif;
   }
   .historia_main__container .historia_section__container .historia_parrafo p {
     padding: 3rem 2rem 2rem 0;
     font-size: 2rem;
     font-weight: 500;
     color: #fefae0;
-    font-family: "Montserrat", sans-serif;
   }
 }
 /* Main */
 .contacto_main__container {
-  background-color: #21131a;
+  background-color: #432534;
 }
 .contacto_main__container .contacto_main__section {
   margin-top: 3rem;

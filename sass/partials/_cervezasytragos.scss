@@ -1,0 +1,106 @@
+@use 'variables';
+
+// Mobile
+
+/* Main */
+
+.cervezas_main__container{
+    background-color: #21131a;
+
+    .cervezas_main__section{
+        margin: 3rem;
+
+        div{
+            h2{
+                font-size: 3rem;
+                font-weight: 600;
+                color: #fefae0;
+                padding-bottom: 5rem;
+                padding-top: 5rem;
+            }
+        }
+        .card_container{
+
+            .card{
+                margin: 2rem;
+                h3{
+                    font-size: 2rem;
+                }
+                p{
+                    font-size: 1.5rem;
+                }
+            }            
+        }
+    }
+    
+}
+
+
+/* DESKTOP */
+
+@media screen and (min-width: 768px){
+
+    .cervezas_main__container{
+        background-color: #21131a;
+
+        .cervezas_main__section{
+            margin-top: 3rem;
+            margin-bottom: 10rem;
+
+            div{
+                h2{
+                    font-size: 3rem;
+                    font-weight: 600;
+                    color: #fefae0;
+                    padding-bottom: 2rem;
+                    padding-top: 5rem;
+                }
+            }
+
+            .card_container{
+                width: 100%;
+                max-width: 120rem;
+                padding-left: 5rem;
+                height: 43rem;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin-top: 3rem;
+                margin-bottom: 5rem;
+
+                .card{
+                    background-color: #fefae0;
+                    width: 50rem;
+                    height: 43rem;
+                    border-radius: 6px;
+                    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+                    overflow: hidden;
+                    margin: 2rem;
+                    transition: all 0.25s;
+                    &:hover{
+                        transform: translateY(-15px);
+                        box-shadow: 0 1.2rem 1.6rem rgba(0, 0, 0, 0.2);
+                    }
+
+                    img{
+                        width: 50rem;
+                        height: 30rem;
+                    }
+                    h3{
+                        padding: 2rem;
+                        font-size: 2.5rem;
+                        font-weight: 600;
+                    }
+                    p{
+                        font-weight: 500;
+                        font-size: 2rem;
+                    }
+                }
+            }
+        
+
+        }
+    
+    }
+
+}

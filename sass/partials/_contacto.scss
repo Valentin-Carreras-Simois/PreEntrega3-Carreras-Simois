@@ -5,7 +5,7 @@
 /* Main */
 
 .contacto_main__container{
-    background-color: #21131a;
+    background-color: variables.$color__violet;
 
     .contacto_main__section{
         margin-top: 3rem;
@@ -17,7 +17,7 @@
 
             h2{
                 font-size: 2rem;
-                color: #fefae0;
+                color: variables.$color__white;
                 padding-top: 2rem;
                 padding-bottom: 2rem;
 
@@ -26,7 +26,7 @@
                 li{
                     list-style: none;
                     font-size: 1.5rem;
-                    color: #fefae0;
+                    color: variables.$color__white;
                     padding: 2rem;
 
                 }
@@ -45,7 +45,7 @@
 
                     label{
                         font-size: 2rem;
-                        color: #fefae0;
+                        color: variables.$color__white;
                     }
                     input{
                         font-size: 1.5rem;
@@ -54,7 +54,7 @@
                 .caja_comentario_text{
                     label{
                         font-size: 2rem;
-                        color: #fefae0;
+                        color: variables.$color__white;
                     }
                     textarea{
                         font-size: 1.5rem;
@@ -84,8 +84,8 @@
 
             article{
                 h2{
-                    font-size: 3rem;
-                    color: #fefae0;
+                    font-size: variables.$fontsize_h2;
+                    color: variables.$color__white;
                     padding-top: 2.5rem;
                     padding-bottom: 3rem;
                 }
@@ -94,7 +94,7 @@
                     li{
                         list-style: none;
                         font-size: 2rem;
-                        color: #fefae0;
+                        color: variables.$color__white;
                         padding: 2.5rem;
                     }
                 }
