@@ -102,6 +102,7 @@
                     text-decoration: none;
                     &:hover{
                         color: variables.$color__violet;
+                        transition: 0.2s;
                     }
                 }
             }
