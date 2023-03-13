@@ -257,14 +257,14 @@ html {
     background-image: linear-gradient(60deg, #3e2631, #522c3f, #783457, #832d58);
   }
   .inicio_aside__container .inicio_aside__h2 {
-    padding: 2rem;
+    padding-top: 3rem;
     color: #fefae0;
   }
   .inicio_aside__container .inicio_aside__h2 h2 {
     font-size: 3rem;
   }
   .inicio_aside__container .inicio_aside__h2 .inicio_aside__p1 {
-    padding-top: 1rem;
+    padding-top: 2rem;
     padding-bottom: 4rem;
     font-size: 2rem;
   }
@@ -286,7 +286,7 @@ html {
     transition: 0.2s;
   }
   .inicio_aside__container .inicio_aside__img {
-    padding-top: 2rem;
+    padding-top: 3rem;
   }
   .inicio_aside__container .inicio_aside__img img {
     width: 100%;
