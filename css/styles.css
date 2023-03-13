@@ -186,7 +186,7 @@ html {
   background-color: #432534;
 }
 .inicio_aside__container .inicio_aside__h2 {
-  padding: 2rem;
+  padding: 1rem;
   color: #fefae0;
 }
 .inicio_aside__container .inicio_aside__h2 h2 {
@@ -194,14 +194,28 @@ html {
 }
 .inicio_aside__container .inicio_aside__h2 .inicio_aside__p1 {
   padding-top: 1rem;
+  padding-bottom: 1rem;
   font-size: 1rem;
 }
 .inicio_aside__container .inicio_aside__h2 .inicio_aside__p2 {
-  padding-top: 10rem;
+  padding-top: 2rem;
+  padding-bottom: 0;
   font-size: 1rem;
 }
-.inicio_aside__container .inicio_aside__img {
-  padding-top: 2rem;
+.inicio_aside__container .inicio_aside__h2 .inicio_btn__container a {
+  font-size: 1rem;
+  color: #fefae0;
+  text-decoration: none;
+}
+.inicio_aside__container .inicio_aside__h2 .inicio_btn__container a:hover {
+  color: #432534;
+  transition: 0.2s;
+}
+.inicio_aside__container .inicio_aside__h2 .inicio_aside__img {
+  padding: 0;
+}
+.inicio_aside__container .inicio_aside__h2 .inicio_aside__img img {
+  padding: 0;
 }
 
 /* DESKTOP */
@@ -251,14 +265,32 @@ html {
   }
   .inicio_aside__container .inicio_aside__h2 .inicio_aside__p1 {
     padding-top: 1rem;
+    padding-bottom: 4rem;
     font-size: 2rem;
   }
   .inicio_aside__container .inicio_aside__h2 .inicio_aside__p2 {
-    padding-top: 48rem;
+    padding-top: 40rem;
     font-size: 2rem;
+  }
+  .inicio_aside__container .inicio_aside__h2 .inicio_btn__container .btn:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+  }
+  .inicio_aside__container .inicio_aside__h2 .inicio_btn__container .btn a {
+    font-size: 2rem;
+    color: #fefae0;
+    text-decoration: none;
+  }
+  .inicio_aside__container .inicio_aside__h2 .inicio_btn__container .btn a:hover {
+    color: #432534;
+    transition: 0.2s;
   }
   .inicio_aside__container .inicio_aside__img {
     padding-top: 2rem;
+  }
+  .inicio_aside__container .inicio_aside__img img {
+    width: 100%;
+    height: 75rem;
   }
 }
 /* Main */
@@ -576,7 +608,7 @@ html {
   }
   .contacto_main__container .contacto_main__section article .caja_comentario .caja_comentario_text textarea {
     font-size: 2rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
   }
   .contacto_main__container .contacto_main__section article .caja_comentario .caja_comentario_text button {
     font-size: 2rem;
