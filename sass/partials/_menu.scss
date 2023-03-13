@@ -1,33 +1,40 @@
 @use 'variables';
 
+@mixin sizes ($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
+
 // Mobile
 
 /* Main */
 
 .menu_main__container{
-    background-color: #21131a;
+    background-color: variables.$color__violet;
 
     .menu_main__section{
-        margin: 3rem;
+        margin: variables.$margin_default;
 
         div{
             h2{
-                font-size: 3rem;
+                font-size: variables.$fontsize_h2 - 1;
                 font-weight: 600;
-                color: #fefae0;
-                padding-bottom: 5rem;
-                padding-top: 5rem;
+                color: variables.$color__white;
+                padding-bottom: variables.$padding_default;
+                padding-top: variables.$padding_default;
             }
         }
         .card_container{
 
             .card{
-                margin: 2rem;
+                background-color: variables.$color__white;
+                margin: variables.$margin_default - 1;
                 h3{
-                    font-size: 2rem;
+                    font-size: variables.$fontsize_h3 -1;
+                    padding-top: variables.$padding_default - 1;
                 }
                 p{
-                    font-size: 1.5rem;
+                    font-size: variables.$fontsize_p -1;
                 }
             }            
         }
@@ -41,41 +48,39 @@
 @media screen and (min-width: 768px){
 
     .menu_main__container{
-        background-color: #21131a;
+        background-image: linear-gradient(-90deg, #2e1d25, #422432, #53273e, #602241);
 
         .menu_main__section{
-            margin-top: 3rem;
-            margin-bottom: 10rem;
+            margin-top: variables.$margin_default;
+            margin-bottom: variables.$margin_default *3;
 
             div{
                 h2{
-                    font-size: 3rem;
+                    font-size: variables.$fontsize_h2;
                     font-weight: 600;
-                    color: #fefae0;
-                    padding-bottom: 2rem;
-                    padding-top: 5rem;
+                    color: variables.$color__white;
+                    padding-bottom: variables.$padding_default;
+                    padding-top: variables.$padding_default + 3;
                 }
             }
 
             .card_container{
-                width: 100%;
+                @include sizes(100%, 43rem);
                 max-width: 120rem;
-                padding-left: 5rem;
-                height: 43rem;
+                padding-left: variables.$padding_default + 3;
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;
-                margin-top: 3rem;
-                margin-bottom: 5rem;
+                margin-top: variables.$margin_default;
+                margin-bottom: variables.$margin_default + 2;
 
                 .card{
-                    background-color: #fefae0;
-                    width: 50rem;
-                    height: 43rem;
+                    background-color: variables.$color__white;
+                    @include sizes(50rem, 43rem);
                     border-radius: 6px;
-                    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+                    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
                     overflow: hidden;
-                    margin: 2rem;
+                    margin: variables.$margin_default - 1;
                     transition: all 0.25s;
                     &:hover{
                         transform: translateY(-15px);
@@ -83,17 +88,16 @@
                     }
 
                     img{
-                        width: 50rem;
-                        height: 30rem;
+                        @include sizes(50rem, 30rem)
                     }
                     h3{
-                        padding: 2rem;
-                        font-size: 2.5rem;
+                        padding: variables.$padding_default;
+                        font-size: variables.$fontsize_h3;
                         font-weight: 600;
                     }
                     p{
                         font-weight: 500;
-                        font-size: 2rem;
+                        font-size: variables.$fontsize_p;
                     }
                 }
             }

@@ -1,11 +1,15 @@
 @use 'variables';
 
+@mixin sizes ($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
 // MOBILE 
 
 /* Main */
 
 .inicio_main__container{
-    height: 100vh;
+    @include sizes(100%, 100vh);
     background-image:url(../img/bar1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,22 +19,26 @@
     .inicio_titulo__1{
         color: variables.$color__white;
         font-size: variables.$fontsize_h2;
-        padding-left: 2rem;
+        padding-left: variables.$padding_default;
     }
     .inicio_titulo__2{
         color: variables.$color__white;
-        font-size: 2rem;
-        padding-left: 2rem;
+        font-size: variables.$fontsize_p;
+        padding-left: variables.$padding_default;
     }
 
     .inicio_btn__container{
-        padding-left: 2rem;
-        padding-top: 15rem;
+        padding-left: variables.$padding_default;
+        padding-top: variables.$padding_default *6;
 
         a{
-            font-size: 1rem;
+            font-size: variables.$fontsize_p;
             color: variables.$color__white;
             text-decoration: none;
+            &:hover{
+                color: variables.$color__violet;
+                transition: 0.2s;
+            }
         }
     }
 
@@ -43,25 +51,25 @@
     background-color: variables.$color__violet;
 
     .inicio_aside__h2{
-        padding: 2rem;
+        padding: variables.$padding_default;
         color: variables.$color__white;
 
         h2{
-            font-size: 2rem;
+            font-size: variables.$fontsize_h2 - 1;
         }
         
         .inicio_aside__p1{
-            padding-top: 1rem;
-            font-size: 1rem;             
+            padding-top: variables.$padding_default - 1;
+            font-size: variables.$fontsize_p - 1;             
         }
         .inicio_aside__p2{
-            padding-top: 2rem;
-            font-size: 1rem;
+            padding-top: variables.$padding_default *5;
+            font-size: variables.$fontsize_p - 1;
         }
     }
 
     .inicio_aside__img{
-        padding-top: 2rem;
+        padding-top: variables.$padding_default;
     }
     
 }
@@ -75,30 +83,34 @@
     // Main
 
     .inicio_main__container{
-        height: 100vh;
+        @include sizes(100%, 100vh);
 
         .inicio_titulos__container{
-            padding-left: 5rem;
-            padding-top: 5rem;
+            padding-left: variables.$padding_default + 3;
+            padding-top: variables.$padding_default + 3;
 
             .inicio_titulo__1{
                 font-size: 7rem;
-                padding-top: 20rem;
+                padding-top: variables.$padding_default *10;
                 font-weight: 600;
                 
             }
             .inicio_titulo__2{
-                font-size: 5rem;
+                font-size: variables.$fontsize_h2 + 2;
             }
         }
 
         .inicio_btn__container{
-            padding-left: 2rem;
-            padding-top: 15rem;
+            padding-left: variables.$padding_default;
+            padding-top: variables.$padding_default *8;
 
             .btn{
+                &:hover{
+                    transform: scale(1.2);
+                    transition: 0.2s;
+                }
                 a{
-                    font-size: 2rem;
+                    font-size: variables.$fontsize_p;
                     color: variables.$color__white;
                     text-decoration: none;
                     &:hover{
@@ -113,10 +125,10 @@
     // Aside
 
     .inicio_aside__container{
-        background-color: variables.$color__violet;
+        background-image: linear-gradient(60deg, #3e2631, #522c3f, #783457, #832d58);
 
         .inicio_aside__h2{
-            padding: 2rem;
+            padding: variables.$padding_default;
             color: variables.$color__white;
 
             h2{
@@ -124,17 +136,17 @@
             }
             
             .inicio_aside__p1{
-                padding-top: 1rem;
-                font-size: 1.5rem;             
+                padding-top: variables.$padding_default - 1;
+                font-size: variables.$fontsize_p;             
             }
             .inicio_aside__p2{
-                padding-top: 47rem;
-                font-size: 1.5rem;
+                padding-top: variables.$padding_default *24;
+                font-size: variables.$fontsize_p;
             }
         }
 
         .inicio_aside__img{
-            padding-top: 2.5rem;
+            padding-top: variables.$padding_default;
         }
 
     }
