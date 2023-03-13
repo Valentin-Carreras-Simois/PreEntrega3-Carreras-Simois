@@ -496,7 +496,7 @@ html {
     background-image: linear-gradient(-90deg, #2e1d25, #422432, #53273e, #602241);
   }
   .historia_main__container .historia_section__container {
-    background-image: linear-gradient(to bottom, #2e1d25, #432534);
+    background-image: linear-gradient(to right, #2e1d25, #53273e);
     padding: 2rem;
     margin-top: 3rem;
     margin-bottom: 5rem;
