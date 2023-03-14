@@ -15,6 +15,8 @@
     .cervezas_main__section{
         margin: variables.$margin_default;
 
+        // Titulo
+
         div{
             h2{
                 font-size: variables.$fontsize_h2 - 1;
@@ -24,6 +26,9 @@
                 padding-top: variables.$padding_default;
             }
         }
+
+        // Cards
+
         .card_container{
 
             .card{
@@ -38,8 +43,7 @@
                 }
             }            
         }
-    }
-    
+    } 
 }
 
 
@@ -49,11 +53,12 @@
 
     .cervezas_main__container{
         background-image: linear-gradient(-90deg, #2e1d25, #422432, #53273e, #602241);
-        animation:change 10s infinite;
 
         .cervezas_main__section{
             margin-top: variables.$margin_default;
             margin-bottom: variables.$margin_default *3;
+
+            // Titulo
 
             div{
                 h2{
@@ -64,6 +69,8 @@
                     padding-top: variables.$padding_default + 3;
                 }
             }
+
+            // Cards
 
             .card_container{
                 @include sizes(100%, 43rem);
@@ -87,7 +94,6 @@
                         transform: translateY(-15px);
                         box-shadow: 0 1.2rem 1.6rem rgba(0, 0, 0, 0.2);
                     }
-
                     img{
                         @include sizes(50rem, 30rem)
                     }
@@ -102,16 +108,6 @@
                     }
                 }
             }
-        
-
         }
-    
     }
-
-    @keyframes change{
-        0%{background-position: 0 50%;}
-        50%{background-position: 100% 50%;}
-        100%{background-position: 0 50%;}
-    }
-
 }

@@ -18,6 +18,8 @@
         display: flex;
         justify-content: center;
 
+        // Informacion de contacto
+
         article{
 
             h2{
@@ -36,11 +38,17 @@
 
                 }
             }
+
+            // Ubicacion
+
             iframe{
                 padding-top: variables.$padding_default + 1;
                 padding-bottom: variables.$padding_default;
                 @include sizes(20rem, 20rem)
             }
+
+            // Caja de comentario
+
             .caja_comentario{
                 margin-bottom: variables.$margin_default;
 
@@ -69,9 +77,7 @@
                         font-size: variables.$fontsize_p - 0.5;
                     }
                 }
-                
             }
-            
         }
     }
     
@@ -87,6 +93,8 @@
         .contacto_main__section{
             margin-bottom: variables.$margin_default *2;
 
+            // Informacion de contacto
+
             article{
                 h2{
                     font-size: variables.$fontsize_h2;
@@ -94,7 +102,6 @@
                     padding-top: variables.$padding_default + 1;
                     padding-bottom: variables.$padding_default + 1;
                 }
-    
                 ul{
                     li{
                         list-style: none;
@@ -103,13 +110,17 @@
                         padding: variables.$padding_default;
                     }
                 }
+
+                // Informacion de contacto
+
                 iframe{
                     padding-bottom: variables.$padding_default + 1;
                     @include sizes(50rem, 50rem)
                 }
-
                 .caja_comentario{
                     padding-top: variables.$padding_default;
+
+                    // Caja de comentario
 
                     .caja_comentario_email{
                         label{
@@ -139,8 +150,6 @@
                 }
             }
         }
-        
-    
     }
 
 }
