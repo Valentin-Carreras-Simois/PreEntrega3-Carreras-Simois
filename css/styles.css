@@ -1,4 +1,3 @@
-/* Resets */
 * {
   margin: 0;
   padding: 0;
@@ -9,9 +8,6 @@ html {
   font-size: 62.5%;
   box-sizing: border-box;
 }
-
-
-/* HEADER */
 
 .header__container {
   padding: 0;
@@ -44,8 +40,6 @@ html {
   color: #dda15e;
 }
 
-/* FOOTER */
-
 .footer_container {
   background-color: #fefae0;
   width: 100%;
@@ -76,13 +70,9 @@ html {
   padding: 1rem;
 }
 
-
 /* DESKTOP */
-
 @media screen and (min-width: 768px) {
-  
   /* Header*/
-
   .header__container {
     background-image: linear-gradient(90deg, #1a2310, #283618, #263415, #32471b);
   }
@@ -120,9 +110,6 @@ html {
     color: #dda15e;
     transition: 0.5s;
   }
-
-  /* Footer */
-
   .footer_container {
     width: 100%;
     height: 100%;
@@ -161,11 +148,7 @@ html {
     transition: 0.5s;
   }
 }
-
-/* INICIO */
-
 /* Main */
-
 .inicio_main__container {
   width: 100%;
   height: 100vh;
@@ -198,8 +181,6 @@ html {
   color: #432534;
   transition: 0.2s;
 }
-
-/* Aside */
 
 .inicio_aside__container {
   background-color: #432534;
@@ -237,13 +218,8 @@ html {
   padding: 0;
 }
 
-
 /* DESKTOP */
-
 @media screen and (min-width: 768px) {
-
-  /* Main */
-
   .inicio_main__container {
     width: 100%;
     height: 100vh;
@@ -277,9 +253,6 @@ html {
     color: #432534;
     transition: 0.2s;
   }
-
-  /* Aside */
-
   .inicio_aside__container {
     background-image: linear-gradient(60deg, #3e2631, #522c3f, #783457, #832d58);
   }
@@ -312,19 +285,8 @@ html {
     color: #432534;
     transition: 0.2s;
   }
-  .inicio_aside__container .inicio_aside__img {
-    padding-top: 3rem;
-  }
-  .inicio_aside__container .inicio_aside__img img {
-    width: 100%;
-    height: 75rem;
-  }
 }
-
-/* CERVEZAS Y TRAGOS */
-
 /* Main */
-
 .cervezas_main__container {
   background-color: #432534;
 }
@@ -351,11 +313,7 @@ html {
 }
 
 /* DESKTOP */
-
 @media screen and (min-width: 768px) {
-
-  /* Main */
-
   .cervezas_main__container {
     background-image: linear-gradient(-90deg, #2e1d25, #422432, #53273e, #602241);
   }
@@ -409,9 +367,6 @@ html {
     font-size: 2rem;
   }
 }
-
-/* MENU */
-
 /* Main */
 .menu_main__container {
   background-color: #432534;
@@ -439,11 +394,7 @@ html {
 }
 
 /* DESKTOP */
-
 @media screen and (min-width: 768px) {
-
-  /* Main */
-
   .menu_main__container {
     background-image: linear-gradient(-90deg, #2e1d25, #422432, #53273e, #602241);
   }
@@ -497,11 +448,7 @@ html {
     font-size: 2rem;
   }
 }
-
-/* HISTORIA */
-
 /* Main */
-
 .historia_main__container {
   padding: 2rem;
   background-color: #606c38;
@@ -525,11 +472,7 @@ html {
 }
 
 /* DESKTOP */
-
 @media screen and (min-width: 768px) {
-
-  /* Main */
-
   .historia_main__container {
     background-image: linear-gradient(-90deg, #2e1d25, #422432, #53273e, #602241);
   }
@@ -552,9 +495,6 @@ html {
     color: #fefae0;
   }
 }
-
-/* CONTACTO */
-
 /* Main */
 .contacto_main__container {
   background-color: #432534;
@@ -610,11 +550,7 @@ html {
 }
 
 /* DESKTOP */
-
 @media screen and (min-width: 768px) {
-
-  /* Main */
-
   .contacto_main__container {
     background-image: linear-gradient(-90deg, #2e1d25, #422432, #53273e, #602241);
   }
