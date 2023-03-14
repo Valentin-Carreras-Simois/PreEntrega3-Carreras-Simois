@@ -166,7 +166,7 @@
             }
             
             .inicio_aside__p1{
-                padding-top: variables.$padding_default;
+                padding-top: variables.$padding_default - 1;
                 padding-bottom: variables.$padding_default *2;
                 font-size: variables.$fontsize_p;             
             }
@@ -202,7 +202,7 @@
          .inicio_aside__img{
             padding-top: variables.$padding_default;
             img{
-                @include sizes(100%, 75rem)
+                @include sizes(100%, 76rem)
             }
         }
     }
