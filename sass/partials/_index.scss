@@ -117,12 +117,36 @@
 
             .inicio_titulo__1{
                 font-size: 7rem;
+                padding-left: variables.$padding_default;
                 padding-top: variables.$padding_default *10;
+                padding-bottom: variables.$padding_default;
                 font-weight: 600;
-                
+                color: #444442;
+                width: 100%;
+                line-height: 0.70em;
+                outline: none;
+                animation: title 5s linear infinite;
+            }
+            @keyframes title{
+                0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+                    color: #fefae0;
+                    box-shadow: none;
+                    
+                }
+                18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+                    color: #fefae0;
+                    text-shadow: 0 0 10px #283618, 0 0 20px #283618, 0 0 40px #283618, 0 0 80px #283618, 0 0 160px #283618;
+                }
             }
             .inicio_titulo__2{
                 font-size: variables.$fontsize_h2 + 2;
+                font-weight: 600;
+                color: #444442;
+                width: 100%;
+                line-height: 0.70em;
+                outline: none;
+                animation: title 5s linear infinite;
+
             }
         }
 
@@ -130,6 +154,7 @@
 
         .inicio_btn__container{
             padding-left: variables.$padding_default;
+            padding-bottom: variables.$padding_default;
             padding-top: variables.$padding_default *8;
 
             .btn{
@@ -138,7 +163,7 @@
                     transition: 0.2s;
                 }
                 a{
-                    font-size: variables.$fontsize_p;
+                    font-size: variables.$fontsize_h3;
                     color: variables.$color__white;
                     text-decoration: none;
                     &:hover{
@@ -158,11 +183,11 @@
         // Informacion
 
         .inicio_aside__h2{
-            padding-top: variables.$padding_default + 1;
             color: variables.$color__white;
 
             h2{
                 font-size: variables.$fontsize_h2;
+                padding-bottom: variables.$padding_default;
             }
             
             .inicio_aside__p1{
@@ -171,8 +196,8 @@
                 font-size: variables.$fontsize_p;             
             }
             .inicio_aside__p2{
-                padding-top: variables.$padding_default *20;
-                font-size: variables.$fontsize_p;
+                padding-top: variables.$padding_default *10;
+                font-size: variables.$fontsize_p - 0.5;
             }
 
             // Boton
@@ -200,9 +225,9 @@
         // Imagen
 
          .inicio_aside__img{
-            padding-top: variables.$padding_default;
+            padding-top: variables.$padding_default - 1;
             img{
-                @include sizes(100%, 76rem)
+                @include sizes(100%, 80rem)
             }
         }
     }
