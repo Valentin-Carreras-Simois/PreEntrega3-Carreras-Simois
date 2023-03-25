@@ -35,7 +35,7 @@
             padding-bottom: 2rem;
 
             .flip-card {
-                @include sizes(30rem, 23rem);
+                @include sizes(35rem, 23rem);
                 margin: variables.$margin_default;
 
                 .flip-card-inner{
@@ -65,7 +65,7 @@
 
                         h3{
                             background: rgba(0, 0, 0, .8);
-                            font-size: variables.$fontsize_h3;
+                            font-size: variables.$fontsize_h3 - 1;
                             color: variables.$color__white;
                             padding: variables.$padding_default - 1;
                             margin: 0;
@@ -81,24 +81,14 @@
                             font-size: variables.$fontsize_h3 - 0.5;
                             font-weight: 600;
                         }
-                        ul{
-                            text-align: left;
-                            li{
-                                font-size: variables.$fontsize_p - 0.5;
-                                padding-bottom: variables.$padding_default - 1;
-                                font-weight: 600;
-                            }
-                        }
                         p{
                             text-align: center;
                             font-size: variables.$fontsize_p - 0.5;
-                            padding-bottom: variables.$padding_default - 1;
-                            padding-top: variables.$padding_default - 1;
+                            padding-top: variables.$padding_default - 1.5;
                             font-weight: 600;
                         }
                         button{
                             font-size: variables.$fontsize_p - 0.5;
-                            margin-bottom: variables.$margin_default - 1;
                         }
                     }  
                     .flip-card-back-a{
@@ -226,14 +216,6 @@
                                 font-size: variables.$fontsize_h4 + 1;
                                 padding-top: variables.$padding_default *2;
                                 font-weight: 600;
-                            }
-                            ul{
-                                text-align: left;
-                                li{
-                                    font-size: variables.$fontsize_p;
-                                    padding-bottom: variables.$padding_default;
-                                    font-weight: 600;
-                                }
                             }
                             p{
                                 text-align: center;

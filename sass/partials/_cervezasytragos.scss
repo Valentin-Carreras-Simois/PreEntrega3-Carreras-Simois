@@ -86,7 +86,7 @@
                             li{
                                 font-size: variables.$fontsize_p - 0.5;
                                 list-style-type: none;
-                                padding-top: variables.$padding_default - 1;
+                                padding-top: variables.$padding_default - 1.5;
                                 padding-bottom: variables.$padding_default - 1;
                                 font-weight: 600;
                             }
@@ -100,7 +100,6 @@
                         }
                         button{
                             font-size: variables.$fontsize_p - 0.5;
-                            padding-bottom: variables.$padding_default - 0.5;
                             margin-bottom: variables.$margin_default - 1;
                         }
                     }

@@ -193,7 +193,7 @@ html {
 }
 .inicio_aside__container .inicio_aside__h2 h2 {
   font-size: 3rem;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 .inicio_aside__container .inicio_aside__h2 .inicio_aside__p1 {
   padding-top: 2rem;
@@ -202,19 +202,19 @@ html {
 }
 .inicio_aside__container .inicio_aside__h2 .inicio_aside__p2 {
   padding-top: 2rem;
-  padding-bottom: 0;
-  margin-top: 3rem;
+  padding-bottom: 2rem;
   font-size: 1.5rem;
 }
-.inicio_aside__container .inicio_aside__h2 .inicio_btn__container {
-  margin-top: 3rem;
+.inicio_aside__container .inicio_aside__h2 .aside_btn__container {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
 }
-.inicio_aside__container .inicio_aside__h2 .inicio_btn__container a {
+.inicio_aside__container .inicio_aside__h2 .aside_btn__container a {
   font-size: 1.5rem;
   color: #fefae0;
   text-decoration: none;
 }
-.inicio_aside__container .inicio_aside__h2 .inicio_btn__container a:hover {
+.inicio_aside__container .inicio_aside__h2 .aside_btn__container a:hover {
   color: #432534;
   transition: 0.2s;
 }
@@ -401,7 +401,7 @@ html {
 .cervezas_main__container .cervezas_main__section .cards-grid .flip-card .flip-card-inner .flip-card-back ul li, .cervezas_main__container .cervezas_main__section .cards-grid .flip-card .flip-card-inner .flip-card-back-b ul li, .cervezas_main__container .cervezas_main__section .cards-grid .flip-card .flip-card-inner .flip-card-back-a ul li {
   font-size: 1.5rem;
   list-style-type: none;
-  padding-top: 1rem;
+  padding-top: 0.5rem;
   padding-bottom: 1rem;
   font-weight: 600;
 }
@@ -414,7 +414,6 @@ html {
 }
 .cervezas_main__container .cervezas_main__section .cards-grid .flip-card .flip-card-inner .flip-card-back button, .cervezas_main__container .cervezas_main__section .cards-grid .flip-card .flip-card-inner .flip-card-back-b button, .cervezas_main__container .cervezas_main__section .cards-grid .flip-card .flip-card-inner .flip-card-back-a button {
   font-size: 1.5rem;
-  padding-bottom: 1.5rem;
   margin-bottom: 2rem;
 }
 .cervezas_main__container .cervezas_main__section .cards-grid .flip-card .flip-card-inner .flip-card-back-a {
@@ -572,7 +571,7 @@ html {
   padding-bottom: 2rem;
 }
 .menu_main__container .menu_main__section .cards-grid .flip-card {
-  width: 30rem;
+  width: 35rem;
   height: 23rem;
   margin: 3rem;
 }
@@ -604,7 +603,7 @@ html {
 }
 .menu_main__container .menu_main__section .cards-grid .flip-card .flip-card-inner .flip-card-front h3 {
   background: rgba(0, 0, 0, 0.8);
-  font-size: 3rem;
+  font-size: 2rem;
   color: #fefae0;
   padding: 1rem;
   margin: 0;
@@ -619,24 +618,14 @@ html {
   font-size: 2.5rem;
   font-weight: 600;
 }
-.menu_main__container .menu_main__section .cards-grid .flip-card .flip-card-inner .flip-card-back ul, .menu_main__container .menu_main__section .cards-grid .flip-card .flip-card-inner .flip-card-back-b ul, .menu_main__container .menu_main__section .cards-grid .flip-card .flip-card-inner .flip-card-back-a ul {
-  text-align: left;
-}
-.menu_main__container .menu_main__section .cards-grid .flip-card .flip-card-inner .flip-card-back ul li, .menu_main__container .menu_main__section .cards-grid .flip-card .flip-card-inner .flip-card-back-b ul li, .menu_main__container .menu_main__section .cards-grid .flip-card .flip-card-inner .flip-card-back-a ul li {
-  font-size: 1.5rem;
-  padding-bottom: 1rem;
-  font-weight: 600;
-}
 .menu_main__container .menu_main__section .cards-grid .flip-card .flip-card-inner .flip-card-back p, .menu_main__container .menu_main__section .cards-grid .flip-card .flip-card-inner .flip-card-back-b p, .menu_main__container .menu_main__section .cards-grid .flip-card .flip-card-inner .flip-card-back-a p {
   text-align: center;
   font-size: 1.5rem;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
+  padding-top: 0.5rem;
   font-weight: 600;
 }
 .menu_main__container .menu_main__section .cards-grid .flip-card .flip-card-inner .flip-card-back button, .menu_main__container .menu_main__section .cards-grid .flip-card .flip-card-inner .flip-card-back-b button, .menu_main__container .menu_main__section .cards-grid .flip-card .flip-card-inner .flip-card-back-a button {
   font-size: 1.5rem;
-  margin-bottom: 2rem;
 }
 .menu_main__container .menu_main__section .cards-grid .flip-card .flip-card-inner .flip-card-back-a {
   background-color: #caf0f8;
@@ -744,14 +733,6 @@ html {
   .menu_main__container .menu_main__section .cards-grid .flip-card .flip-card-inner .flip-card-back h4, .menu_main__container .menu_main__section .cards-grid .flip-card .flip-card-inner .flip-card-back-a h4, .menu_main__container .menu_main__section .cards-grid .flip-card .flip-card-inner .flip-card-back-b h4 {
     font-size: 3.5rem;
     padding-top: 4rem;
-    font-weight: 600;
-  }
-  .menu_main__container .menu_main__section .cards-grid .flip-card .flip-card-inner .flip-card-back ul, .menu_main__container .menu_main__section .cards-grid .flip-card .flip-card-inner .flip-card-back-a ul, .menu_main__container .menu_main__section .cards-grid .flip-card .flip-card-inner .flip-card-back-b ul {
-    text-align: left;
-  }
-  .menu_main__container .menu_main__section .cards-grid .flip-card .flip-card-inner .flip-card-back ul li, .menu_main__container .menu_main__section .cards-grid .flip-card .flip-card-inner .flip-card-back-a ul li, .menu_main__container .menu_main__section .cards-grid .flip-card .flip-card-inner .flip-card-back-b ul li {
-    font-size: 2rem;
-    padding-bottom: 2rem;
     font-weight: 600;
   }
   .menu_main__container .menu_main__section .cards-grid .flip-card .flip-card-inner .flip-card-back p, .menu_main__container .menu_main__section .cards-grid .flip-card .flip-card-inner .flip-card-back-a p, .menu_main__container .menu_main__section .cards-grid .flip-card .flip-card-inner .flip-card-back-b p {

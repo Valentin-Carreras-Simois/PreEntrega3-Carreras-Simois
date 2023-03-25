@@ -61,7 +61,7 @@
 
         h2{
             font-size: variables.$fontsize_h2 - 1;
-            margin-bottom: variables.$margin_default + 2;
+            margin-bottom: variables.$margin_default;
         }
         
         // Informacion
@@ -73,15 +73,15 @@
         }
         .inicio_aside__p2{
             padding-top: variables.$padding_default;
-            padding-bottom: 0;
-            margin-top: variables.$margin_default;
+            padding-bottom: variables.$padding_default;
             font-size: variables.$fontsize_p - 0.5;
         }
 
         // Boton
 
-        .inicio_btn__container{
-            margin-top: variables.$margin_default;
+        .aside_btn__container{
+            margin-top: variables.$margin_default + 2;
+            margin-bottom: variables.$margin_default;
             a{
                 font-size: variables.$fontsize_p - 0.5;
                 color: variables.$color__white;
