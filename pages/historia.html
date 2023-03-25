@@ -14,11 +14,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
 
+    <!-- Animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
     <!-- Bootstrap Css-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
     <!-- Icons -->
     <script src="https://kit.fontawesome.com/6b5d1bd546.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../img/favicon.png">
 
     <!-- Css Main -->
     <link rel="stylesheet" href="../css/styles.css">
@@ -67,30 +73,40 @@
             <main class="container-fluid col-12 historia_main__container text-center">
 
                 <!-- Historia -->
-                <section class="container-md historia_section__container border border-light-subtle">
+                <section class="container-md historia_section__container--1 border border-success animate__animated animate__bounce">
 
                     <!-- Subtitulo -->
 
                     <h2 class="titulo_historia">NUESTRA HISTORIA</h2>
 
                     <!-- Texto -->
+                       
+                    <article>
 
-                    <article class="container-fluid historia_parrafo">
-                        <p>
-                            Luyaba es un pequeño pueblo ubicado en el Valle de Traslasierra. Su nombre proviene de un vocablo comechingón que surge de las crónicas de los colonizadores que durante el siglo XXI fueron llegando a estos territorios. Aquí, hace muchos años nuestro abuelo Gumersindo Carranza propuso una fonda llamada El Viejo Algarrobo, en su propia casa ofrecía comidas caseras y bebidas a los viajeros así como charlas e historias. Muchos años después, recuperando ese anhelo de un espacio donde cobijar la palabra y compartir la mesa nació el proyecto La Vieja May, reconociendo en su nominación a nuestra madre, maestra rural de Luyaba y amante de sus horizontes.
-                        </p>
+                        <div class="nuestra_historia__out">
+                            <h3>"Muchos años después, recuperando ese anhelo de un espacio donde cobijar la palabra y compartir la mesa nació el proyecto La Vieja May"</h3>
+                            <button class="btn btn-outline-light animate__animated animate__pulse animate__slow animate__infinite" type="button" data-bs-toggle="collapse" data-bs-target="#luyabatexto1" aria-expanded="false" aria-controls="luyabatexto1">
+                                Conocer mas
+                            </button>
+                        </div>
+                        <div class="nuestra_historia__in collapse row" id="luyabatexto1">
+                            <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12 col-12">
+                                <p>
+                                    Luyaba es un pequeño pueblo ubicado en el <b>Valle de Traslasierra</b>. Su nombre proviene de un vocablo comechingón que surge de las crónicas de los colonizadores que durante el siglo XXI fueron llegando a estos territorios. Aquí, hace muchos años nuestro abuelo Gumersindo Carranza propuso una fonda llamada <b> El Viejo Algarrobo </b>, en su propia casa ofrecía comidas caseras y bebidas a los viajeros así como charlas e historias. Muchos años después, recuperando ese anhelo de un espacio donde cobijar la palabra y compartir la mesa nació el proyecto <b>La Vieja May</b>, reconociendo en su nominación a nuestra madre, maestra rural de Luyaba y amante de sus horizontes.
+                                </p>
+                            </div>
+                            <div class="col-xl-7 col-lg-12 col-md-12 col-sm-12 col-12">
+                                <img class="col-6 img-fluid" src="../img/luyaba1.jpg" alt="el pueblo luyaba con las sierras detras">
+                            </div>
+                        </div>
+
                     </article>
 
-                    <!-- Imagen -->
-
-                    <div>
-                        <img src="../img/luyaba1.jpg" class="img-fluid" alt="El pueblo Luyaba con las altas cumbres de fondo">
-                    </div>
                 </section>
 
                 <!-- Metas -->
     
-                <section class="container-md historia_section__container border border-light-subtle">
+                <section class="container-md historia_section__container--2 border border-success animate__animated animate__bounce animate__slow">
 
                     <!-- Subtitulo -->
                     
@@ -98,17 +114,27 @@
 
                     <!-- Texto -->
 
-                    <article class="container-fluid historia_parrafo">
-                        <P>
-                            La Vieja May esta pensada como una cervecería artesanal que incorpora a su espacio la tranquilidad y la lentitud de lo pueblerino, invitando a quedarse y descansar la mirada sobre las sierras. Un lugar que permita a los clientes conectar con la naturaleza y distanciarse un rato del ajetreo de la cotidianidad, que permita un espacio para divertirse al mismo tiempo que reinventarse y descubrirse. Invitamos a los clientes a aventurarse en la experiencia completa de La Vieja May, disfrutar de nuestra carta y llevarse un recuerdo que dure por mucho tiempo.
-                        </P>
+                    <article>
+
+                        <div class="nuestra_historia__out">
+                            <h3>"Invitamos a los clientes a aventurarse en la experiencia completa de La Vieja May"</h3>
+                            <button class="btn btn-outline-light animate__animated animate__pulse animate__slow animate__infinite" type="button" data-bs-toggle="collapse" data-bs-target="#luyabatexto2" aria-expanded="false" aria-controls="luyabatexto2">
+                                Conocer mas
+                            </button>
+                        </div>
+                        <div class="nuestra_historia__in collapse row" id="luyabatexto2">
+                            <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12 col-12">
+                                <p>
+                                    La Vieja May esta pensada como una cervecería artesanal que incorpora a su espacio <b>la tranquilidad y la lentitud de lo pueblerino</b>, invitando a quedarse y descansar la mirada sobre las sierras. Un lugar que permita a los clientes conectar con la naturaleza y distanciarse un rato del ajetreo de la cotidianidad, que permita un espacio para divertirse al mismo tiempo que <b>reinventarse y descubrirse</b>. Invitamos a los clientes a aventurarse en la experiencia completa de <b>La Vieja May</b>, disfrutar de nuestra carta y llevarse un recuerdo que dure por mucho tiempo.
+                                </p>
+                            </div>
+                            <div class="col-xl-7 col-lg-12 col-md-12 col-sm-12 col-12">
+                                <img class="col-6 img-fluid" src="../img/luyaba2.jpg" alt="el pueblo luyaba con las sierras detras">
+                            </div>
+                        </div>
+
                     </article>
 
-                    <!-- Imagen -->
-
-                    <div>
-                        <img src="../img/luyaba2.jpg" class="img-fluid" alt="Arroyo en el pueblo Luyaba con las altas cumbres de fondo">
-                    </div>
                 </section>
     
             </main>

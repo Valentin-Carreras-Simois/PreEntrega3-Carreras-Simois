@@ -14,11 +14,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
 
+    <!-- Animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
     <!-- Bootstrap Css-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
     <!-- Icons -->
     <script src="https://kit.fontawesome.com/6b5d1bd546.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../img/favicon.png">
 
     <!-- Css Main -->
     <link rel="stylesheet" href="../css/styles.css">
@@ -59,71 +65,54 @@
                 </nav>
             </header>
 
+            <div class="contacto_background row">
+
             <!-- Main -->
 
-            <main class="container-fluid col-12 text-center contacto_main__container">
+            <main class="col-xl-7 col-lg-12 col-md-12 col-sm-12 col-12 text-center contacto_main__container">
 
-                <!-- Informacion de Contacto -->
-        
-                <section class="container-md contacto_main__section border border border-warning">
-                    <article>
-                        <h2>Contactate con Nosotros!</h2>
+                <section class="contacto_main__section border border-warning-subtle animate__animated animate__backInLeft animate__slow">
+                    <article class="contacto_main__article ">
+
+                        <h2 class="animate__animated animate__pulse animate__slow animate__infinite">Queremos saber de vos!</h2>
+
+                        <!-- Caja Comentario -->
+                        <form>
+                            <div class="mb-3 contacto_main__email">
+                                <label for="FormControlInput1" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="FormControlInput1" placeholder="nombre@ejemplo.com">
+                            </div>
+                            <div class="mb-3 contacto_main__textarea">
+                                <label for="FormControlTextarea1" class="form-label">Conta tu experiencia</label>
+                                <textarea class="form-control" id="FormControlTextarea1" rows="10"></textarea>
+                            </div>
+                            <button type="submit" class="btn border-light">Enviar</button>
+                        </form>
+
+                </section>
+            </main>
+
+            <!-- Aside -->
+
+            <aside class="col-xl-5 col-lg-12 col-md-12 col-sm-12 col-12 text-center contacto_aside__container">
+                <section class="contacto_aside__section border border-warning-subtle animate__animated animate__backInRight animate__slow">
+                    <article class="contacto_aside__iframe">
+                        <h3 class="animate__animated animate__pulse animate__slow animate__infinite">Te esperamos</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4777.267283080926!2d-65.05069125055026!3d-32.14927065647582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d2d85ece2ccbfb%3A0x51035413330104f!2sLuyaba%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1679592582186!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </article>
+
+                    <article class="contacto_aside__info">
+                        <h3 class="animate__animated animate__pulse animate__slow animate__infinite">Informacion</h3>
                         <ul>
-                            <li>Telefono: 111110000</li>
-                            <li>Direccion: Calle Publica 750</li>
-                            <li>Mail: laviejamay@gmail.com</li>
+                            <li>Telefono: 03543 - 2821091</li>
+                            <li>Email: laviejamay@gmail.com</li>
+                            <li>Direccion: Calle Publica 710</li>
                         </ul>
                     </article>
                 </section>
+            </aside>
 
-                <!-- Mapa -->
-        
-                <section class="container-md contacto_main__section border border border-warning">
-                        <article>
-
-                            <!-- Subtitulo -->
-
-                            <h2>Te esperamos!</h2>
-
-                            <!-- Iframe -->
-
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2008.5896756390525!2d-65.05594180504362!3d-32.14944271120161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d2d85ece2ccbfb%3A0x51035413330104f!2sLuyaba%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1675132079096!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </article>
-                </section>
-        
-                <!--Comentarios   -->
-        
-                <section class="container-md contacto_main__section border border border-warning ">
-                    <article>
-
-                        <!-- Subtitulo-->
-
-                        <h2>Queremos conocer tu experiencia!</h2>
-
-                        <div class="caja_comentario container-fluid">
-
-                            <!-- Input Email -->
-
-                            <div class="col-12 caja_comentario_email">
-                                <label for="exampleFormControlInput1" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
-                            </div>
-
-                            <!-- Textarea Comentarios -->
-
-                            <div class="col-12 caja_comentario_text">
-                                <label for="exampleFormControlTextarea1" class="form-label">Deja tu comentario!</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" placeholder="Deja tu comentario!"></textarea>
-
-                                <!-- Boton Enviar -->
-
-                                <button class="btn btn-outline-light" type="reset">Enviar</button>
-                            </div>
-                        </div>
-                    </article>
-                </section>
-                    
-            </main>
+            </div>
 
             <!-- Footer -->
     

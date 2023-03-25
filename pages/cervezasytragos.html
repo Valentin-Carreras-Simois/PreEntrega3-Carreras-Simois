@@ -14,11 +14,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
 
+    <!-- Animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
     <!-- Bootstrap Css-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
     <!-- Icons -->
     <script src="https://kit.fontawesome.com/6b5d1bd546.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../img/favicon.png">
 
     <!-- Css Main -->
     <link rel="stylesheet" href="../css/styles.css">
@@ -64,85 +70,132 @@
 
             <main class="container-fluid col-12 cervezas_main__container">
 
-                    <div class="container text-center">
+                    <div class="container-fluid text-center">
 
                     <!-- Cervezas  -->
 
-                        <section class="row border border-success cervezas_main__section">
+                        <section class="row border border-info cervezas_main__section">
 
                             <!-- Subtitulo -->
                             
                             <div>
-                                <h2 class="cervezas_menu__titulo">Cervezas</h2>
+                                <h2 class="cervezas_menu__titulo animate__animated animate__pulse animate__slow animate__infinite">Cervezas</h2>
                             </div>
 
                             <!-- Cards -->
 
-                          <article class="col-12 card_container">
-                            <div class="card">
-                                <img src="../img/ipa.jpg" alt="Cerveza IPA">
-                                <h3>IPA</h3>
-                                <p>$1000</p>
-                            </div>    
-                          </article>
-                          <article class="col-12 card_container">
-                            <div class="card">
-                                <img src="../img/kolsch.jpg" alt="Cerveza Kolsch">
-                                <h3>Kolsch</h3>
-                                <p>$1000</p>
-                            </div>    
-                          </article>
-                          <article class="col-12 card_container">
-                            <div class="card">
-                                <img src="../img/porter.jpg" alt="Cerveza Porter">
-                                <h3>Porter</h3>
-                                <p>$1000</p>
-                            </div>    
-                          </article>
-                          <article class="col-12 card_container">
-                            <div class="card">
-                                <img src="../img/paleale.jpg" alt="Cerveza Pale Ale">
-                                <h3>Pale Ale</h3>
-                                <p>$1000</p>
-                            </div>    
-                          </article>
-
+                            <article class="cards-grid col">
+                                <div class="flip-card animate__animated animate__backInLeft">
+                                    <div class="flip-card-inner">
+                                        <figure class="flip-card-default flip-card-front" style="background-image: url('../img/ipa.jpg');">
+                                            <h3>IPA</h3>
+                                        </figure>
+                                        <div class="flip-card-default flip-card-back-a">
+                                            <h4>IPA</h4>
+                                            <ul>
+                                                <li>Alcohol: 5 - 7,5%</li>
+                                                <li>Color: 8 - 14</li>
+                                                <li>IBUs: 40 - 60</li>
+                                            </ul>
+                                            <button type="button" class="btn btn-dark">$800</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="cards-grid col">
+                                <div class="flip-card animate__animated animate__backInLeft">
+                                    <div class="flip-card-inner">
+                                        <figure class="flip-card-default flip-card-front" style="background-image: url('../img/porter.jpg');">
+                                            <h3>Porter</h3>
+                                        </figure>
+                                        <div class="flip-card-default flip-card-back-a">
+                                            <h4>Porter</h4>
+                                            <ul>
+                                                <li>Alcohol: 4,0 - 5,4%</li>
+                                                <li>Color: 20 - 30</li>
+                                                <li>IBUs: 18 - 35</li>
+                                            </ul>
+                                            <button type="button" class="btn btn-dark">$900</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="cards-grid col">
+                                <div class="flip-card animate__animated animate__backInLeft">
+                                    <div class="flip-card-inner">
+                                        <figure class="flip-card-default flip-card-front" style="background-image: url('../img/paleale.jpg');">
+                                            <h3>Pale Ale</h3>
+                                        </figure>
+                                        <div class="flip-card-default flip-card-back-a">
+                                            <h4>Pale Ale</h4>
+                                            <ul>
+                                                <li>Alcohol: 4,5 - 6,2%</li>
+                                                <li>Color: 10 - 17</li>
+                                                <li>IBUs: 25 - 40</li>
+                                            </ul>
+                                            <button type="button" class="btn btn-dark">$1000</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            
                         </section>
 
                         <!-- Tragos -->
 
-                        <section class="row border border-success cervezas_main__section">
+                        <section class="row border border-info cervezas_main__section">
                             
                             <!-- Subtitulo -->
 
                             <div>
-                                <h2 class="cervezas_menu__titulo">Tragos</h2>
+                                <h2 class="cervezas_menu__titulo animate__animated animate__pulse animate__slow animate__infinite">Tragos</h2>
                             </div>
 
                             <!-- Cards -->
 
-                          <article class="col-12 card_container">
-                            <div class="card">
-                                <img src="../img/vino.jpg" alt="Vino con limon">
-                                <h3>Vino Veraniego</h3>
-                                <p>$1000</p>
-                            </div>    
-                          </article>
-                          <article class="col-12 card_container">
-                            <div class="card">
-                                <img src="../img/campari.jpg" alt="Campari con jugo de naranja">
-                                <h3>Campari</h3>
-                                <p>$1000</p>
-                            </div>    
-                          </article>
-                          <article class="col-12 card_container">
-                            <div class="card">
-                                <img src="../img/gintonic.jpg" alt="Gin Tonic">
-                                <h3>Gin Tonic</h3>
-                                <p>$1000</p>
-                            </div>    
-                          </article>
-
+                            <article class="cards-grid col">
+                                <div class="flip-card animate__animated animate__backInLeft">
+                                    <div class="flip-card-inner">
+                                        <figure class="flip-card-default flip-card-front" style="background-image: url('../img/vino.jpg');">
+                                            <h3>Vino Veraniego</h3>
+                                        </figure>
+                                        <div class="flip-card-default flip-card-back-b">
+                                            <h4>Vino Veraniego</h4>
+                                            <p>Vino "La Matilde" con limon y una pizca de azucar.</p>
+                                            <button type="button" class="btn btn-dark">$700</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="cards-grid col">
+                                <div class="flip-card animate__animated animate__backInLeft">
+                                    <div class="flip-card-inner">
+                                        <figure class="flip-card-default flip-card-front" style="background-image: url('../img/campari.jpg');">
+                                            <h3>Campari</h3>
+                                        </figure>
+                                        <div class="flip-card-default flip-card-back-b">
+                                            <h4>Campari</h4>
+                                            <p>Campari con jugo de naranja exprimido y una pizca de jugo de limon.</p>
+                                            <button type="button" class="btn btn-dark">$800</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="cards-grid col">
+                                <div class="flip-card animate__animated animate__backInLeft">
+                                    <div class="flip-card-inner">
+                                        <figure class="flip-card-default flip-card-front" style="background-image: url('../img/gintonic.jpg');">
+                                            <h3>Gin Tonic</h3>
+                                        </figure>
+                                        <div class="flip-card-default flip-card-back-b">
+                                            <h4>Gin Tonic</h4>
+                                            <p>Gin "Malaria" con agua tonica, lima y hojas de menta.</p>
+                                            <button type="button" class="btn btn-dark">$1000</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            
                         </section>
 
                       </div>
