@@ -41,6 +41,7 @@
                         input{
                             font-size: variables.$fontsize_p - 0.5;
                             margin-top: variables.$margin_default - 1.5;
+                            @include sizes(25rem, 3rem)
                         }
                     }
                     .contacto_main__textarea{
@@ -50,6 +51,7 @@
                         textarea{
                             font-size: variables.$fontsize_p - 0.5;
                             margin-top: variables.$margin_default - 1;
+                            @include sizes(25rem, 20rem)
                         }
                     }
                     button{
@@ -87,7 +89,7 @@
                     margin-bottom: variables.$margin_default;
                 }
                 iframe{
-                    @include sizes(20rem, 25rem)
+                    @include sizes(25rem, 25rem)
                 }
             }
             .contacto_aside__info{
