@@ -882,10 +882,13 @@ html {
 }
 .contacto_background {
   background-color: #432534;
+  padding: 0;
+  margin: 0;
   /* Main */
 }
 .contacto_background .contacto_main__container {
   padding: 0;
+  margin: 0;
 }
 .contacto_background .contacto_main__container .contacto_main__section {
   margin: 3rem;
@@ -934,6 +937,7 @@ html {
 }
 .contacto_background .contacto_aside__container {
   padding: 0;
+  margin: 0;
 }
 .contacto_background .contacto_aside__container .contacto_aside__section {
   margin: 3rem;
@@ -973,6 +977,8 @@ html {
 /* DESKTOP */
 @media screen and (min-width: 768px) {
   .contacto_background {
+    padding: 0;
+    margin: 0;
     background-image: linear-gradient(-90deg, #2e1d25, #422432, #53273e, #602241);
     background-size: 300% 300%;
     animation: color 5s ease-in-out infinite;
@@ -990,6 +996,7 @@ html {
   }
   .contacto_background .contacto_main__container {
     padding: 0;
+    margin: 0;
   }
   .contacto_background .contacto_main__container .contacto_main__section {
     margin: 3rem;
