@@ -913,7 +913,7 @@ html {
 .contacto_background .contacto_main__container .contacto_main__section .contacto_main__article form .contacto_main__email input {
   font-size: 1.5rem;
   margin-top: 1.5rem;
-  width: 25rem;
+  width: 100%;
   height: 3rem;
 }
 .contacto_background .contacto_main__container .contacto_main__section .contacto_main__article form .contacto_main__textarea {
@@ -924,7 +924,7 @@ html {
 .contacto_background .contacto_main__container .contacto_main__section .contacto_main__article form .contacto_main__textarea textarea {
   font-size: 1.5rem;
   margin-top: 2rem;
-  width: 25rem;
+  width: 100%;
   height: 20rem;
 }
 .contacto_background .contacto_main__container .contacto_main__section .contacto_main__article form button {
@@ -955,7 +955,7 @@ html {
   margin-bottom: 3rem;
 }
 .contacto_background .contacto_aside__container .contacto_aside__section .contacto_aside__iframe iframe {
-  width: 25rem;
+  width: 100%;
   height: 25rem;
 }
 .contacto_background .contacto_aside__container .contacto_aside__section .contacto_aside__info {
