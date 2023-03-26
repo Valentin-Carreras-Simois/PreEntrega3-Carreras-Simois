@@ -11,12 +11,12 @@
     background-color: variables.$color__violet;
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 
     /* Main */
 
     .contacto_main__container{
         padding: 0;
-        margin: 0;
 
         .contacto_main__section{
             margin: variables.$margin_default;
@@ -73,7 +73,6 @@
 
     .contacto_aside__container{
         padding: 0;
-        margin: 0;
 
         .contacto_aside__section{
          margin: variables.$margin_default;
@@ -142,8 +141,7 @@
 
         .contacto_main__container{
             padding: 0;
-            margin: 0;
-    
+
             .contacto_main__section{
                 margin: variables.$margin_default;
                 display: flex;
